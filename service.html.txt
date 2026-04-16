@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Services</h1></header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="ai.html">AI</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="section">
+<div class="card">🌿 Disease Detection</div>
+<div class="card">📊 Severity</div>
+<div class="card">💊 Treatment</div>
+<div class="card">🌦 Weather Prediction</div>
+</section>
+
+</body>
+</html>

@@ -1,13 +1,13 @@
-/* ================= index.html ================= */
 <!DOCTYPE html>
-
 <html>
 <head>
 <title>AgroVision AI</title>
 <link rel="stylesheet" href="style.css">
 <script defer src="script.js"></script>
 </head>
+
 <body>
+
 <header><h1>🌱 AgroVision</h1></header>
 
 <nav>
@@ -20,23 +20,23 @@
 </nav>
 
 <section class="hero">
-<h1>AI-Powered Crop Disease Detection & Smart Farming Assistant</h1>
-<p>Upload a leaf image and get instant disease diagnosis, treatment, and prevention tips.</p>
-<button class="main-btn" onclick="scrollToDemo()">📸 Scan Your Crop Now</button>
+<h1>AI-Powered Crop Disease Detection</h1>
+<p>Upload crop image & get instant diagnosis</p>
+<button onclick="scrollToDemo()">📸 Scan Now</button>
 </section>
 
 <section class="features">
 <div>🌿 Disease Detection</div>
-<div>📊 Severity Analysis</div>
-<div>🌦 Weather Risk Alert</div>
-<div>💊 Smart Treatment</div>
+<div>📊 Severity</div>
+<div>🌦 Weather Risk</div>
+<div>💊 Treatment</div>
 </section>
 
-<section class="demo" id="demo">
+<section id="demo" class="section">
 <h2>Live Demo</h2>
 <input type="file" onchange="fakeAI()">
 <p id="demoResult"></p>
 </section>
 
 </body>
-</html> 
+</html>

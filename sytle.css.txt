@@ -1,0 +1,10 @@
+body{margin:0;font-family:Arial;background:#eef7ee;}
+header{background:#1b5e20;color:white;text-align:center;padding:20px;}
+nav{background:#2e7d32;text-align:center;padding:10px;}
+nav a{color:white;margin:10px;text-decoration:none;}
+.hero{padding:120px;text-align:center;color:white;
+background:url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') center/cover;}
+button{padding:10px 20px;background:#4caf50;color:white;border:none;}
+.features{display:flex;justify-content:space-around;background:white;padding:20px;}
+.section{padding:40px;text-align:center;}
+.card{padding:20px;margin:10px;background:white;border-radius:10px;}
